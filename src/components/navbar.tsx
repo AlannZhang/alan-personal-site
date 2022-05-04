@@ -1,11 +1,12 @@
-import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import '../styles/navbar.scss';
+import '@fontsource/roboto';
 
 const NavBar = () => {
   return (
-    <div className='navbar'>
-      <NavLink to='/'>Work</NavLink>  
-      <NavLink to='/about'>About</NavLink>
+    <div className='navBar'>
+      <NavLink to='/' className='ul'>Home</NavLink>  
+      <NavLink to='/about' className='ul'>About</NavLink>
     </div>
   );
 }

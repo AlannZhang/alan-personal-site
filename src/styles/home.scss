@@ -1,0 +1,54 @@
+body {
+    background-color: #add8e6;
+}
+
+.intro {
+    font-size: 300%;
+    padding: 5%;
+    margin: 5%;
+    .blurb {
+        font-size: 50%;
+        line-height: 200%;
+    }
+}
+
+.coOps {
+    .line {
+        height: 2px;
+        border-width: 0;
+        color: black;
+        background-color:black;
+        width: 80%;
+    }
+    // .header {
+    //     display: block;
+    //     text-align: center;
+    //     overflow: hidden;
+    //     white-space: nowrap; 
+    // }
+    
+    // .header > span {
+    //     position: relative;
+    //     display: inline-block;
+    // }
+    
+    // .header > span:before,
+    // .header > span:after {
+    //     content: "";
+    //     position: absolute;
+    //     top: 50%;
+    //     width: 800%;
+    //     height: 2px;
+    //     background: black;
+    // }
+    
+    // .header > span:before {
+    //     right: 100%;
+    //     margin-right: 5%;
+    // }
+    
+    // .header > span:after {
+    //     left: 100%;
+    //     margin-left: 5%;
+    // }
+}
