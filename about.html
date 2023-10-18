@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link href="https://fonts.googleapis.com/css?family=Krona+One&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Tinos&display=swap" rel="stylesheet" />
+      <link href="./css/main.css" rel="stylesheet" />
+      <title>Document</title>
+    </head>
+
+    <div class="div">
+        <div class="div-2">
+          <div class="name">
+            <a href="home.html">Alan Zhang</a>
+          </div>
+          <div class="navbar">
+            <div class="about">
+              <a href="about.html">About</a>
+            </div>
+            <div class="resume">
+              <a href="./resume/Alan Zhang Resume 3A.pdf">Resume</a>
+            </div>
+            <div class="random">Random</div>
+          </div>
+        </div>
+        <div class="div-3">
+            <div class="div-4">
+              <div class="column">
+                <div class="div-10">
+                  <div class="blurb-about">
+                    Here’s what I look like on the right. My most recent interests have
+                    been film photography, and reading. More about that in the random
+                    section. Some of my more longstanding interests are skiing and
+                    playing the guitar.
+                    <br />
+                    My work experience and projects are listed at the bottom.
+                  </div>
+                  <div class="div-11">
+                    <div class="div-13">
+                      <button onclick="expOnClick()" class="experience-btn">Experience</button>
+                      <div id="experience" class="experience-dropdown">
+                        <div>
+                            Site Reliability Analyst - Sun Life
+                        </div>
+                        <div>
+                            Loblaws
+                        </div>
+                        <div>
+                            MetricWire
+                        </div>
+                        <div>
+                            University of Waterloo/D2L
+                        </div>
+                      </div>
+                    </div>
+                    <div class="div-14">
+                      <button onclick="onClick()" class="projects-btn">Projects</button>
+                    </div>
+                    <div class="div-15">
+                      <button onclick="onClick()" class="contact-info-btn">Contact Info</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column-2">
+                <img
+                  loading="lazy"
+                  srcset="./images/IMG_3382.jpg"
+                  class="self-picture"
+                />
+              </div>
+            </div>
+        </div>
+    </div>
+    <script>
+      function expOnClick() {
+        document.getElementById("experience").classList.toggle("show");
+      }
+    </script>
+</html>
